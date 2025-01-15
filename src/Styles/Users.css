@@ -1,0 +1,152 @@
+/* Estilos para el contenedor principal */
+.Contenido-Principal {
+  display: block;
+  background: #ffffff;
+  color: #333333;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+h2.Estilos-Users {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #8e44ad;
+}
+
+p.Parrafos-users {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555555;
+}
+
+.Navigate-users {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #9b59b6;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.Navigate-users:hover {
+  background: #8e44ad;
+}
+
+/* Estilos para el contenedor de usuarios */
+.Conteiner-Users {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Estilos para la lista de usuarios */
+.Conteiner-Users ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Estilos para cada tarjeta de usuario */
+.Conteiner-Users li {
+  background: #ffffff;
+  color: #333333;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: calc(25% - 20px); 
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.Conteiner-Users li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.Conteiner-Users h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #8e44ad;
+}
+
+.Conteiner-Users p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555555;
+}
+
+.Conteiner-Users a {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #8e44ad;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.Conteiner-Users a:hover {
+  background: #9b59b6;
+}
+
+
+.Estilos-error {
+  color: #e74c3c;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+@media (max-width: 1024px) {
+  .Conteiner-Users li {
+    width: calc(33.333% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .Conteiner-Users li {
+    width: calc(50% - 20px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .Conteiner-Users li {
+    width: 100%; 
+  }
+}
+
+
+/*Estilos para el titulo de UserPost*/
+.Estilo-Titulo{
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #8e44ad;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .Estilo-Titulo {
+    font-size: 1.8rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .Estilo-Titulo {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,50 @@
+.Conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .Conteiner-Principal {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  .titulo-principal {
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 15px;
+  }
+  
+  .Estilos-Parrafos {
+    font-size: 1.1rem;
+    color: #555555;
+    margin-bottom: 20px;
+  }
+  
+  .navigate-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4facfe;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+
+  .navigate-home:hover {
+    background: #00c3ff;
+}
+
